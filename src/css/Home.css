@@ -1,0 +1,17 @@
+.eachItem {
+    margin: 3%;
+}
+
+.notFoundItem {
+    margin: 3%;
+    height: 298px;
+    width: 210px;
+}
+
+.outer {
+    text-align: center;
+}
+
+body {
+    /* background-color: black; */
+}
