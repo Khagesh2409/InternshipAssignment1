@@ -49,11 +49,8 @@ function ChildModal() {
 
 export default function NestedModal1() {
   const [open, setOpen] = React.useState(false);
-  const [selectedMovie, setSelectedMovie] = useState(null);
-
   const handleOpen = () => {
       setOpen(true);
-      setSelectedMovie(content.show.id)
   };
   const handleClose = () => {
     setOpen(false);
@@ -97,7 +94,7 @@ export default function NestedModal1() {
         <Box sx={{ ...style, width: 400 }}>
           {content[0].show.name}
           <p id="parent-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            {content[0].show.summary}
           </p>
           <ChildModal />
         </Box>

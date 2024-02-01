@@ -96,7 +96,7 @@ export default function NestedModal8() {
         <Box sx={{ ...style, width: 400 }}>
         {content[7].show.name}
           <p id="parent-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          {content[7].show.summary}
           </p>
           <ChildModal />
         </Box>

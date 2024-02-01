@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../css/Home.css";
+import NestedModal1 from "./NestedModal1";
 import NestedModal2 from "./NestedModal2";
 import NestedModal3 from "./NestedModal3";
 import NestedModal4 from "./NestedModal4";
@@ -9,7 +10,7 @@ import NestedModal7 from "./NestedModal7";
 import NestedModal8 from "./NestedModal8";
 import NestedModal9 from "./NestedModal9";
 import NestedModal10 from "./NestedModal10";
-import NestedModal1 from "./NestedModal1";
+
 
 const Home = () => {
     const [content, setContent] = useState([]);
@@ -105,7 +106,6 @@ const Home = () => {
             return (
                 <div style={{ display: 'inline-block', textAlign: 'center' }}>
                     <img src="https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg" alt="image" className="notFoundItem" />
-                    <NestedModal5 />
                 </div>
             )
 

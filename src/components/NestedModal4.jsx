@@ -94,9 +94,9 @@ export default function NestedModal4() {
         aria-describedby="parent-modal-description"
       >
         <Box sx={{ ...style, width: 400 }}>
-        {content[1].show.name}
+        {content[3].show.name}
           <p id="parent-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          {content[3].show.summary}
           </p>
           <ChildModal />
         </Box>
